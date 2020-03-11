@@ -1,17 +1,36 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
+    <ion-title color="danger">
+      Séries
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content >
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>17 de dezembro de 1989</ion-card-subtitle>
+      <ion-card-title>Os Simpsons</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/9fSGtPOp3MlFfynLEjYjlOfenbk.jpg"/>
+      <p>A família Simpsons mora na cidade de Springfield, uma cidade americana como qualquer outra. Homer trabalha como inspetor de segurança numa usina de energia nuclear.…</p>
+      <ion-button expand="block" fill="outline">Mais Informações</ion-button>
+    </ion-card-content>
+  </ion-card>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>21 de fevereiro de 2020</ion-card-subtitle>
+      <ion-card-title>Hunters</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/vJlr9hIwtQzgIxKQf6ic3dMJKlF.jpg"/>
+      <p>Inspirado em fatos reais, “Caçadores” (HUNTERS) segue uma equipe de caçadores de nazistas em 1977, na cidade de Nova York, que descobre que centenas de nazistas…</p>
+      <ion-button expand="block" fill="outline">Mais Informações</ion-button>
+    </ion-card-content>
+  </ion-card>
+  
 </ion-content>
